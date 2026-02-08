@@ -1,0 +1,4 @@
+# Assignment 1 & 2
+
+- Assignment 1: Batch headline sentiment scoring (`score_headlines.py`)
+- Assignment 2: FastAPI web service (`score_headlines_api.py`)
