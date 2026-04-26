@@ -2,3 +2,22 @@
 
 - Assignment 1: Batch headline sentiment scoring (`score_headlines.py`)
 - Assignment 2: FastAPI web service (`score_headlines_api.py`)
+
+This project is based on two assignments from Python for Machine Learning.
+
+The first part implements a batch headline sentiment scoring tool. It reads headlines from a text file, converts each headline into sentence embeddings, uses a trained SVM model to classify the sentiment, and writes the results to an output file.
+
+The second part serves the same sentiment model as a web service. The API allows clients to check whether the service is running and submit headlines for real-time sentiment prediction.
+
+## Main Features
+
+- Load headlines from a text file
+- Convert headlines into vector embeddings
+- Use a trained SVM classifier to predict sentiment
+- Classify each headline as Optimistic, Pessimistic, or Neutral
+- Save batch prediction results to an output file
+- Provide a FastAPI web service for real-time prediction
+- Expose a `/status` endpoint
+- Expose a `/score_headlines` endpoint
+- Use logging for errors and service activity
+- Deploy and manage the project through Git
